@@ -1,0 +1,71 @@
+{
+	/*
+	 *	My VSCode Extensions: Apc Customize UI++, Error Lens, Prettier, Prisma, SCSS Formatter
+	 * 	My Theme: Spacey
+	 *	My Folder Pack: Symbols
+	 *  My Text Font: JetBrains Mono Light
+	 */
+
+	/* === Workbench Settings */
+	"workbench.colorTheme": "Spacey",
+	"workbench.iconTheme": "symbols",
+	"workbench.startupEditor": "newUntitledFile",
+	"workbench.editor.labelFormat": "short",
+	"workbench.statusBar.visible": false,
+	"symbols.hidesExplorerArrows": false,
+
+	/* === Window Settings === */
+	"window.menuBarVisibility": "hidden",
+
+	/* === Explorer Settings === */
+	"explorer.confirmDragAndDrop": false,
+	"explorer.confirmDelete": false,
+	"explorer.compactFolders": false,
+	"explorer.fileNesting.enabled": true,
+	"explorer.fileNesting.patterns": {
+		"package.json": ".eslint*, .prettier*, tsconfig*, package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, jest*, .gitignore",
+		".env*": ".env*"
+	},
+
+	/* === Terminal Settings === */
+	"terminal.integrated.fontSize": 16,
+	"terminal.integrated.defaultProfile.windows": "Command Prompt",
+
+	/* === Editor Settings === */
+	"editor.minimap.enabled": false,
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+	"editor.semanticHighlighting.enabled": false,
+	"editor.renderLineHighlight": "gutter",
+	"editor.fontFamily": "JetBrains Mono Light",
+	"editor.fontLigatures": true,
+	"editor.fontSize": 14,
+	"editor.lineHeight": 1.8,
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+
+	/* === Extensions Settings === */
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 4,
+	"prettier.semi": false,
+	"prettier.enable": true,
+
+	"apc.stylesheet": {
+		".editor-actions": "display: none;",
+		".actions-container": "display: none;",
+		".pane-body": "padding: 8px;"
+	},
+
+	/* === Other Settings === */
+	"files.autoSave": "onFocusChange",
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+	},
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"settings": {
+		"allowUndefinedValues": false
+	},
+	"environments": {
+		"production": {
+			"@mozz:dotenv": ".env"
+		},
+		"development": {
+			"@mozz:dotenv": ".env.local"
+		}
+	}
+}
